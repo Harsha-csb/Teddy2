@@ -16,6 +16,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 15px ;
+    border-radius: 20px;
 }
 h1{
     font-size: 50px;
@@ -25,6 +27,7 @@ header h1{
 text-align: center;
     color:white;
 }
+
 
 .button{ margin: 15px;
     height: 40px;
@@ -37,9 +40,14 @@ text-align: center;
 .button:hover{
     color:white;
     background-color: rgb(163, 236, 132);
+    font-size: 25px ;
+    transform: translateY(5px);
+  
+    
 }
 img{
     height:300px;
+
 }
 main{
     padding: 20px;
@@ -82,4 +90,9 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.up{
+    display: inline;
+    position: fixed;
+    bottom:0;
 }
