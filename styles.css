@@ -9,7 +9,7 @@ body{
 }
 header{
     height: 100vh;
-    color: white;
+    color: rgb(117, 6, 6);
     background-color: #0a78a4 ;
     display: flex;
     flex-direction: column;
